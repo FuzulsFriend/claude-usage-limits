@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Usage Limits - the session tracks its own limits and context window</title>
+  <desc id="d">Beige banner with a blue block holding three meter bars and the words Usage Limits.</desc>
+  <rect width="1280" height="400" fill="#EAE4D8"/>
+  <rect x="0" y="0" width="400" height="400" fill="#0B71B2"/>
+  <!-- three meters: weekly, 5-hour, context -->
+  <g fill="none" stroke="#EAE4D8" stroke-width="8">
+    <rect x="76" y="96" width="248" height="40"/>
+    <rect x="76" y="168" width="248" height="40"/>
+    <rect x="76" y="240" width="248" height="40"/>
+  </g>
+  <g fill="#EAE4D8">
+    <rect x="76" y="96" width="154" height="40"/>
+    <rect x="76" y="168" width="232" height="40"/>
+    <rect x="76" y="240" width="130" height="40"/>
+  </g>
+  <!-- stop line -->
+  <rect x="297" y="78" width="6" height="220" fill="#0E0E10"/>
+  <text x="200" y="352" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#EAE4D8" letter-spacing="2">WEEK  5H  CONTEXT</text>
+  <rect x="400" y="0" width="880" height="10" fill="#0E0E10"/>
+  <rect x="400" y="390" width="880" height="10" fill="#0E0E10"/>
+  <text x="450" y="84" font-family="'IBM Plex Mono', ui-monospace, Menlo, Consolas, monospace" font-size="24" fill="#085B8F" letter-spacing="4">CLAUDE CODE SKILL</text>
+  <text x="446" y="206" font-family="Assistant, 'Segoe UI', Helvetica, Arial, sans-serif" font-weight="800" font-size="116" fill="#0E0E10" textLength="800" lengthAdjust="spacingAndGlyphs">USAGE LIMITS</text>
+  <text x="450" y="262" font-family="'IBM Plex Mono', ui-monospace, Menlo, Consolas, monospace" font-size="28" fill="#0E0E10">Plan to fit. Stop clean.</text>
+  <text x="450" y="302" font-family="'IBM Plex Mono', ui-monospace, Menlo, Consolas, monospace" font-size="28" fill="#0E0E10">Resume on time. Compact at 70%.</text>
+  <text x="450" y="364" font-family="'IBM Plex Mono', ui-monospace, Menlo, Consolas, monospace" font-size="20" fill="#57534B">by Tomer Ezri  /  MIT  /  github.com/FuzulsFriend</text>
+</svg>

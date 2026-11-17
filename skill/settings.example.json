@@ -1,0 +1,20 @@
+{
+  "statusLine": {
+    "type": "command",
+    "command": "node /ABSOLUTE/PATH/TO/.claude/skills/usage-limits/scripts/statusline.cjs"
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node /ABSOLUTE/PATH/TO/.claude/skills/usage-limits/scripts/count-compactions.cjs",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
