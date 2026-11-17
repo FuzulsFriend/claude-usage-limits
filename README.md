@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Usage Limits: the session tracks its own limits and context window" width="100%">
+  <img src="assets/banner.png" alt="Usage Limits: the session tracks its own limits and context window" width="100%">
 </p>
 
 > **A Claude Code skill that makes the session watch its own usage limits and context window. It plans work to fit what is left, stops at a clean boundary near a limit, arms an automatic resume after the reset, and tells you when to compact.**
@@ -28,7 +28,7 @@ In every case the numbers existed. Claude Code just does not hand them to the mo
 5. **Compact by 70%, on purpose.** Heads-ups at 50, 60 and 70% of the context window, each with a verdict: is now a safe moment to compact? After more than 5 compactions, it recommends a fresh session with a written handoff.
 
 <p align="center">
-  <img src="assets/context-ladder.svg" alt="The context ladder: heads-ups at 50, 60 and 70 percent, and a fresh session after more than 5 compactions" width="100%">
+  <img src="assets/context-ladder.png" alt="The context ladder: heads-ups at 50, 60 and 70 percent, and a fresh session after more than 5 compactions" width="100%">
 </p>
 
 ## Architecture
